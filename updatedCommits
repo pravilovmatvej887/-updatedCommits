@@ -1,0 +1,4 @@
+   updatedCommits[branches.get(currentBranch).length] = commitId;
+        branches.put(currentBranch, updatedCommits);
+        System.out.println("Committed: " + commitId + " - " + message);
+    }
